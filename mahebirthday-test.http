@@ -1,0 +1,11 @@
+### Save a birthday
+POST https://birthdaypush.onrender.com/birthdays
+Content-Type: application/json
+
+{
+  "name": "Ramya",
+  "dob": "1985-12-14"
+}
+
+### Fetch a birthday
+POST https://birthdaypush.onrender.com/health
