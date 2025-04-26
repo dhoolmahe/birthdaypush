@@ -14,5 +14,5 @@ spring:
 
 redis:
   url: free-corgi-27372.upstash.io
-  port: 6379
+  port: 6380
   password: AWrsAAIjcDE1OGY4NGI0ZjIxZDI0ODlmYWQ3NzA0ZmViYjEyOTJiM3AxMA

@@ -30,10 +30,6 @@ public class RedisConfig {
         return new LettuceConnectionFactory(config);
     }
 
-//    @Bean
-//    public ReactiveStringRedisTemplate redisTemplate(LettuceConnectionFactory factory) {
-//        return new ReactiveStringRedisTemplate(factory);
-//    }
 
     @Bean
     public RedisTemplate<String, Object> redisTemplate(LettuceConnectionFactory factory) {
