@@ -3,9 +3,12 @@ server:
 spring:
   application:
     name: birthdayreminder
-  autoconfigure:
-    exclude:
-      - org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration
+#  autoconfigure:
+#    exclude:
+#      - org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration
+
 
 redis:
-  url: rediss://default:AWrsAAIjcDE1OGY4NGI0ZjIxZDI0ODlmYWQ3NzA0ZmViYjEyOTJiM3AxMA@free-corgi-27372.upstash.io:6379
+  url: free-corgi-27372.upstash.io
+  port: 6379
+  password: AWrsAAIjcDE1OGY4NGI0ZjIxZDI0ODlmYWQ3NzA0ZmViYjEyOTJiM3AxMA
