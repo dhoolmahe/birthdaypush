@@ -8,4 +8,4 @@ Content-Type: application/json
 }
 
 ### Fetch a birthday
-POST https://birthdaypush.onrender.com/health
+GET https://birthdaypush.onrender.com/health
