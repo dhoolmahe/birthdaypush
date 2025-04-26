@@ -3,9 +3,13 @@ server:
 spring:
   application:
     name: birthdayreminder
-#  autoconfigure:
-#    exclude:
-#      - org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration
+  data:
+    redis:
+      timeout: 5000
+      lettuce:
+        shutdown-timeout: 100ms
+      ssl:
+        enabled: true
 
 
 redis:
